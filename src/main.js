@@ -75,7 +75,7 @@ async function run(input) {
       bucketRoot = bucketRoot + '/'
     }
   } else {
-    bucketRoot = 'artifacts/'; // Do not use the default value of input to match the behavior with destinationDir
+    bucketRoot = '/'; // Do not use the default value of input to match the behavior with destinationDir
   }
 
   let destinationDir = input.destinationDir;
